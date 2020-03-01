@@ -1,11 +1,14 @@
 import React from 'react';
-
+import {Container } from "reactstrap";
+import HeaderFooter from "../components/headerFooter";
+// import from
 
 function App() {
   return (
-    <div className="App">
-      hi
-    </div>
+    <Container>
+      <HeaderFooter />
+
+    </Container>
   );
 }
 
